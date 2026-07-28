@@ -127,10 +127,50 @@
             <h2 class="atendimento">podemos ajudar?</h2>
             <h2 id="gucode-atendimento" class="gucode">Gucode</h2>
             <p id="descricao-atendimento" class="descricao">Descreva seu projeto e conte o que você deseja desenvolver, essas <br>informações nos ajudarão a criar a melhor solução para sua empresa.</p>
-
-            <form class="formulario">
-               
+            <form>
+               <div class="cartao">              
+                  <div class="grade-form">
+                     <!-- nome-->
+                     <div class="grupo-campo">
+                     <label class="txt-nome" for="nome">Nome</label>
+                     <input type="text" id="nome" name="nome" placeholder="Como podemos chamar você?" required>
+                     </div>
+                      <!--Empresa ou profissão-->
+                     <div class="grupo-campo">
+                     <label class="empresa-txt" for="empresa">Empresa</label>
+                     <input type="text" id="empresa" name="empresa" placeholder="Ex.: Clínica, arquitetura, loja..." required>
+                     </div>
+                     <!--WhatsApp-->
+                     <div class="grupo-campo">
+                     <label for="whatsapp">WhatsApp</label>
+                     <input type="tel" id="whatsapp" name="whatsapp" placeholder="Ex.: (11) 99999-9999" required>                   
+                     </div>
+                     <!--Dropdown-->
+                     <div class="grupo-campo">
+                        <label for="procura">O que você procura?</label required>
+                        <select id="procura" name="procura">
+                        <option value="">Selecione uma opção</option>
+                        <option value="landing">Landing Page</option>
+                        <option value="automacao">Automação com IA</option>
+                        <option value="outro">Outro</option>
+                      </select>
+                     </div>
+                     <div class="objetivo-principal">
+                        <label for="objetivo">Objetivo principal</label>
+                        <textarea id="objetivo" name="objetivo" placeholder="Descreva seu objetivo principal..." required></textarea>
+                     </div>
+                     <div class="btn-submit">
+                        <button type="submit" class="botao-enviar">Preencher e continuar ao WhatsApp   
+                        </button>
+                     </div>
+                  </div>
+               </div>
             </form>
+            <footer>
+               <div class="background4">
+
+               </div>
+            </footer>
          </div>
       </div>
 </section>
