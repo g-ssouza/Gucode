@@ -9,7 +9,7 @@ body{
 }
 .background{
     position: relative;
-    background-image: url(/devsolutions/img/background\ \(1\).png);
+    background-image: url(/img/background\ \(1\).png);
     height: 950px;
     background-size: cover;
     background-position:center;
@@ -133,7 +133,7 @@ body{
 
 .background2{
     position: relative;
-    background-image: url(/devsolutions/img/background2.jpg);
+    background-image: url(/img/background2.jpg);
     height: 950px;
     background-size: cover;
     background-position:center;
@@ -419,7 +419,7 @@ body{
     background: #E06328 ;
 }
 .background3{
-    background-image: url(/devsolutions/img/background3.jpg);
+    background-image: url(/img/background3.jpg);
     height: 850px;
     background-size: cover;
     background-position:center;
